@@ -1,0 +1,13 @@
+#icon-wp-crawlforme { background-image: url('../assets/crawly-32x32.png'); }
+
+.c4me-c16  { background-image: url('../assets/crawly-16x16.png'); }
+.c4me-help { background-image: url('../assets/help-16x16.png'); }
+.c4me-blog { background-image: url('../assets/blog-16x16.png'); }
+.c4me-faq  { background-image: url('../assets/faq-16x16.png'); }
+.c4me-tutorial { background-image: url('../assets/tutorial-16x16.png'); }
+.crawlforme_links td { background-repeat: no-repeat; background-position: 0 10px; padding-left: 25px; }
+
+.c4me-error { background-image: url('../assets/error-24x24.png'); background-repeat: no-repeat; background-position: center 12px; }
+
+.crawlforme-overview #left-sortables p.submit { text-align: right; }
+.crawlforme-overview #right-sortables p.submit { text-align: left; }

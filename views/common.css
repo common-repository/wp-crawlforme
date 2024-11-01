@@ -1,0 +1,7 @@
+#icon-wp-crawlforme { background-image: url('../assets/crawly-32x32.png'); }
+.c4me-wrap { min-width: 850px; overflow: hidden; }
+.c4me-wrap ul.features { list-style: none; }
+.c4me-wrap ul.features li { padding: 2px 10px; }
+.c4me-wrap ul.features li:before {
+	content: "→ ";
+}

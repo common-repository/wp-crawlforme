@@ -1,0 +1,407 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-crawlforme\n"
+"POT-Creation-Date: 2013-12-03 10:33+0100\n"
+"PO-Revision-Date: 2013-12-03 10:44+0100\n"
+"Last-Translator: Bertrand <bertrand@tesial.be>\n"
+"Language-Team: \n"
+"Language: fr_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-crawlforme.php:147
+msgid "CrawlForMe, Broken Links Checker"
+msgstr "CrawlForMe, Vérificateur de liens cassés"
+
+#: ../wp-crawllforme-admin.php:37 ../wp-crawllforme-admin.php:142
+msgid "Settings"
+msgstr "Configuration"
+
+#: ../wp-crawllforme-admin.php:117
+msgid "Email"
+msgstr "Email"
+
+#: ../wp-crawllforme-admin.php:118
+msgid ""
+"Email will be used to communicate CrawlForMe access and notifications when "
+"the crawl of your website is done."
+msgstr ""
+"L'email est utilisé pour communiquer les accès à la plate-forme CrawlForMe "
+"ainsi que les notifications de fin d'analyse."
+
+#: ../wp-crawllforme-admin.php:124
+msgid "Plugin API key"
+msgstr "API key du plugin"
+
+#: ../wp-crawllforme-admin.php:125
+msgid ""
+"Specify the plugin API key generated previously to add this website to your "
+"existing account. You can find it back in your profile page on the "
+"CrawlForMe plateform."
+msgstr ""
+"Spécifiez l'API key du plugin qui a été générée précédement pour ajouter ce "
+"site à votre compte existant. Vous pouvez la retrouver dans votre page de "
+"profil de la plate-forme CrawlForMe."
+
+#: ../wp-crawllforme-admin.php:238
+msgid "Start now"
+msgstr "Démarrez l'analyse maintenant"
+
+#: ../wp-crawllforme-admin.php:265
+msgid "Plugin configuration reset, the page is reloading ..."
+msgstr "Configuration du plugin remise à zéro, la page va se recharger ..."
+
+#: ../wp-crawllforme-admin.php:288
+msgid "Unable to schedule the task"
+msgstr "Impossible de démarrer la tâche"
+
+#: ../wp-crawllforme-admin.php:290
+msgid "An unexpected error prevented the schedule of a new task"
+msgstr "Une erreur inatendue empèche le démarrage de la tâche planifiée"
+
+#: ../wp-crawllforme-admin.php:293
+msgid "Your crawl will begin in a few moment"
+msgstr "Votre analyse va démarrer dans quelques instants"
+
+#: ../wp-crawllforme-admin.php:307
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: ../wp-crawllforme-admin.php:308
+msgid ""
+"We crawl your websites and report all broken links, missing pictures, "
+"obsolete documents and redirects that go wrong!"
+msgstr ""
+"Nous analysons vos sites web et détectons les liens brisés, les images "
+"manquantes, les documents obsolètes ou les redirections vers des documents "
+"inexistants!"
+
+#: ../wp-crawllforme-admin.php:310
+msgid ""
+"<b>Register below</b> with your email address and get <b>2 free analysis per "
+"month.</b>"
+msgstr ""
+"<b>Enregistrez-vous</b> ci-dessous avec votre adresse email et recevez "
+"<b>deux analyses gratuites par mois.</b>"
+
+#: ../wp-crawllforme-admin.php:311
+msgid "Your first analysis will start automatically."
+msgstr "Votre première analyse débutera automatiquement."
+
+#: ../wp-crawllforme-admin.php:312
+#: ../views/wp-crawllforme-view-overview.php:126
+#: ../views/wp-crawllforme-view-overview.php:131
+#: ../views/wp-crawllforme-view-overview.php:141
+msgid "You will be <b>notified by email</b> when the job is done."
+msgstr "Vous serez <b>prévenu par email</b> lorsque l'analyse sera terminée."
+
+#: ../wp-crawllforme-admin.php:313
+msgid ""
+"Consult the results <b>directly from your CrawlForMe WordPress plugin</b>"
+msgstr ""
+"Consultez les résultats <b>directement depuis votre plugin CrawlForMe</b>"
+
+#: ../wp-crawllforme-admin.php:314
+msgid ""
+"<b>Log in to CrawlForMe</b> to access the interactive online report and the "
+"code inspector"
+msgstr ""
+"<b>Connectez-vous à CrawlForMe.com</b> pour accéder au rapport interactif en-"
+"ligne ainsi qu'à l'inspecteur d'élément"
+
+#: ../wp-crawllforme-admin.php:316
+msgid "Start now your first analysis"
+msgstr "Débutez votre première analyse"
+
+#: ../wp-crawllforme-admin.php:363 ../wp-crawllforme-admin.php:376
+#: ../wp-crawllforme-admin.php:416 ../wp-crawllforme-admin.php:475
+msgid "Default:"
+msgstr "Default:"
+
+#: ../wp-crawllforme-admin.php:406
+msgid "I am already registerd and have an API key"
+msgstr "Je suis déjà enregistré et je dispose d'une API key"
+
+#: ../wp-crawllforme-admin.php:460
+msgid "Administrator email"
+msgstr "Email de l'administrateur"
+
+#: ../wp-crawllforme-admin.php:463
+msgid "Your email"
+msgstr "Votre email"
+
+#: ../wp-crawllforme-admin.php:466
+msgid "A custom email"
+msgstr "Un email spécifique"
+
+#: ../wp-crawllforme-admin.php:500
+#, php-format
+msgid "must be >= '%s',"
+msgstr "doit être >= '%s',"
+
+#: ../wp-crawllforme-admin.php:501
+msgid "so we used the default value instead."
+msgstr "nous avons utilisé la valeur par défaut à la place."
+
+#: ../wp-crawllforme-admin.php:532
+msgid "must be an integer,"
+msgstr "doit être un nombre,"
+
+#: ../wp-crawllforme-admin.php:588 ../wp-crawllforme-admin.php:599
+msgid "An unexpected error occurred"
+msgstr "Une erreur inatendue à eu lieu"
+
+#: ../wp-crawllforme-admin.php:600
+msgid "preventing your account to be created."
+msgstr "nous empéchant de créer votre compte."
+
+#: ../views/wp-crawlforme-graph.php:31
+msgid "Total"
+msgstr "Total"
+
+#: ../views/wp-crawlforme-graph.php:38
+msgid "Successful"
+msgstr "Succès"
+
+#: ../views/wp-crawlforme-graph.php:48
+msgid "Error"
+msgstr "Erreurs"
+
+#: ../views/wp-crawlforme-graph.php:58
+msgid "Ignored"
+msgstr "Ignorés"
+
+#: ../views/wp-crawlforme-graph.php:68
+msgid "Redirected"
+msgstr "Redirigés"
+
+#: ../views/wp-crawlforme-graph.php:80
+msgid "Unit expressed in unique links"
+msgstr "Unité exprimée en lien unique"
+
+#: ../views/wp-crawllforme-view-overview.php:38
+msgid "CrawlForMe API Error"
+msgstr "CrawlForMe erreur d'API"
+
+#: ../views/wp-crawllforme-view-overview.php:39
+#: ../views/wp-crawllforme-view-overview.php:53
+msgid "Useful Links"
+msgstr "Liens utiles"
+
+#: ../views/wp-crawllforme-view-overview.php:46
+msgid "Overview of your last report"
+msgstr "Vue d'ensemble de votre dernier rapport"
+
+#: ../views/wp-crawllforme-view-overview.php:48
+msgid "Manual crawl"
+msgstr "Analyse manuelle"
+
+#: ../views/wp-crawllforme-view-overview.php:52
+msgid "About"
+msgstr "A propos"
+
+#: ../views/wp-crawllforme-view-overview.php:54
+#: ../views/wp-crawllforme-view-overview.php:239
+msgid "Retrieve access"
+msgstr "Vos accès"
+
+#: ../views/wp-crawllforme-view-overview.php:102
+#, php-format
+msgid "Last report completed on: <b>%s</b>"
+msgstr "Dernier rapport complété le: <b>%s</b>"
+
+#: ../views/wp-crawllforme-view-overview.php:105
+msgid "Consult the full report"
+msgstr "Consulter le rapport complet"
+
+#: ../views/wp-crawllforme-view-overview.php:108
+msgid ""
+"Connect to the <a href=\"http://www.crawlforme.com\" target=\"_blank"
+"\">CrawlForme platform</a> to consult previous reports, to modify options "
+"and to discover the CrawlForMe features."
+msgstr ""
+"Connectez-vous à la <a href=\"http://www.crawlforme.com\" target=\"_blank"
+"\">plate-forme de CrawlForMe</a> pour consulter vos rapports précédents, "
+"modifier les options et découvrir l'ensemble des fonctionnalités de "
+"CrawlForMe."
+
+#: ../views/wp-crawllforme-view-overview.php:112
+msgid "No report is currently available."
+msgstr "Aucun report n'est actuellement disponible."
+
+#: ../views/wp-crawllforme-view-overview.php:125
+#: ../views/wp-crawllforme-view-overview.php:130
+msgid "<b>Your website is being crawled ...</b>"
+msgstr "<b>Votre site est en cours d'analyse ...</b>"
+
+#: ../views/wp-crawllforme-view-overview.php:127
+#: ../views/wp-crawllforme-view-overview.php:132
+msgid "Come back to this plugin page to consult the results."
+msgstr "Revenez sur cette page pour consulter les résultats."
+
+#: ../views/wp-crawllforme-view-overview.php:136
+msgid "Unfortunately you have no more manual crawl left for this month."
+msgstr ""
+"Malheureusement, vous n'avez plus d'analyse manuelle restante pour ce mois-"
+"ci."
+
+#: ../views/wp-crawllforme-view-overview.php:137
+#, php-format
+msgid ""
+"Come back on <b>%s</b> the amount of manual crawl will be reset or subscribe "
+"to one of our plans."
+msgstr ""
+"Revenez le <b>%s</b>, le nombre d'analyse manuelle sera remis à zéro ou "
+"souscrivez à un de nos plans."
+
+#: ../views/wp-crawllforme-view-overview.php:140
+msgid ""
+"Click the button below to begin the crawl of your website in a few moment."
+msgstr "Cliquez sur le bouton ci-dessous pour débuter l'analyse de votre site."
+
+#: ../views/wp-crawllforme-view-overview.php:153
+#, php-format
+msgid "You have <b>%s</b> manual crawl(s) left to use."
+msgstr "Il vous reste <b>%s</b> analyse(s) manuelle(s)."
+
+#: ../views/wp-crawllforme-view-overview.php:155
+msgid "Crawl my website"
+msgstr "Analyser mon site web"
+
+#: ../views/wp-crawllforme-view-overview.php:199
+msgid "CrawlForMe Website"
+msgstr "Site web CrawlForMe"
+
+#: ../views/wp-crawllforme-view-overview.php:200
+msgid "Blog"
+msgstr "Blog"
+
+#: ../views/wp-crawllforme-view-overview.php:203
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../views/wp-crawllforme-view-overview.php:204
+msgid "Tutorial"
+msgstr "Tutoriel"
+
+#: ../views/wp-crawllforme-view-overview.php:214
+msgid ""
+"CrawlForMe offers you <b>two manual crawls each month</b> which can be "
+"started whenever you want."
+msgstr ""
+"CrawlForMe vous offre <b>deux analyses manuelles chaque mois</b> qui peuvent "
+"être démarrées à votre convenance."
+
+#: ../views/wp-crawllforme-view-overview.php:216
+msgid ""
+"<b>As a trial user, you are subject to other limitations</b> such as the "
+"maximum number of resources crawled or key features (handling of ignored "
+"links, protected pages, forms, cookie and so on)."
+msgstr ""
+"<b>En tant qu'utilisateur 'Trial', vous êtes soumis à certaines limitations</"
+"b> telles que le nombre maximum de resources analysées ou la configuration "
+"d'options (gestion des liens ignorés, pages protégées, formulaires, cookies "
+"etc)."
+
+#: ../views/wp-crawllforme-view-overview.php:218
+msgid ""
+"If your are interested by <b>unlocking the full potential of this tool "
+"subscribe to one of our plans</b> and enjoy all thoses advantages."
+msgstr ""
+"Si vous êtes intéressé par <b>le potentiel complet de notre outil, abonnez-"
+"vous  à un de nos plans</b> et bénéficiez de toutes les fonctionnalités du "
+"plan."
+
+#: ../views/wp-crawllforme-view-overview.php:222
+msgid "See our tarification plans"
+msgstr "Notre grille tarifaire"
+
+#: ../views/wp-crawllforme-view-overview.php:231
+msgid ""
+"Did you forget your plugin API key to connect other Wordpress to your "
+"account?"
+msgstr ""
+"Vous avez oublié votre API key pour connecter d'autre blog Wordpress à votre "
+"compte ?"
+
+#: ../views/wp-crawllforme-view-overview.php:233
+msgid ""
+"Did you miss the email containing you login and password details to access "
+"the CrawlForMe plateform?"
+msgstr ""
+"Vous avez manqué l'email contenant vos accès à la plateform CrawlForMe ?"
+
+#: ../views/wp-crawllforme-view-overview.php:238
+msgid "Retrieve API key"
+msgstr "Récupérer l'API key"
+
+#: ../views/wp-crawllforme-view-overview.php:249
+msgid "The CrawlForMe API seems to be down at the moment."
+msgstr "L'API CrawlForMe semble être injoignable pour l'instant."
+
+#: ../views/wp-crawllforme-view-overview.php:251
+msgid ""
+"The good news is that you're still able to consult your report by accessing "
+"directly to the <a href=\"http://www.crawlforme.com/\">plateform</a>. "
+msgstr ""
+"La bonne nouvelle est que vous pouvez toujours consulter vos rapports en "
+"accédant directement à la <a href=\"http://www.crawlforme.com\">plate-forme</"
+"a>. "
+
+#: ../views/wp-crawllforme-view-overview.php:252
+msgid ""
+"If the problem persist, feel free to <a href=\"mailto:info@cralwforme.com"
+"\">contact us</a>."
+msgstr ""
+"Si le problème persiste, <a href=\"mailto:info@crawlforme.com\">prenez "
+"contact avec nous</a>."
+
+#~ msgid ""
+#~ "The email will be used solely to send you notification when the crawl of "
+#~ "your website is done. Since this is an asynchronous process it might take "
+#~ "some time depending on the complexity of your blog."
+#~ msgstr ""
+#~ "L'adresse email sera utilisée pour vous communiquer les accès à la plate-"
+#~ "forme CrawlForMe ainsi que les notifications de fin d'analyse."
+
+#~ msgid "Reset"
+#~ msgstr "Reset"
+
+#~ msgid "You have "
+#~ msgstr "You have "
+
+#~ msgid "You will receive an email when the job is done"
+#~ msgstr "Vous recevrez un email lorsque la tâche sera achevée"
+
+#~ msgid "You will receive an email when the job is done."
+#~ msgstr "Vous recevrez un email lorsque l'analyse sera achevée."
+
+#~ msgid "Come back on"
+#~ msgstr "Come back on"
+
+#~ msgid "The crawl of your website is in progress"
+#~ msgstr "L'analyse de votre site est en cours"
+
+#~ msgid "Register below  "
+#~ msgstr "Inscrivez-vous ci-dessous"
+
+#~ msgid "with your email address and get "
+#~ msgstr "avec votre addresse email et recevez"
+
+#~ msgid "2 free analysis per month."
+#~ msgstr "deux analyses gratuites par mois."
+
+#~ msgid "You will be "
+#~ msgstr "Vous serez "
+
+#~ msgid "notified by email "
+#~ msgstr "notified by email "
+
+#~ msgid "when the job is done."
+#~ msgstr "when the job is done."
